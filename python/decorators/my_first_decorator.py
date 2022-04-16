@@ -14,7 +14,7 @@ def multiply_elements_by_two(func):
     def wrapper(*args):
         ls = [*args]
         for i,e in enumerate(ls):
-        ls[i]*=2
+            ls[i]*=2
         return func(*ls)
     return wrapper
 
@@ -34,9 +34,9 @@ def multiply(*ls):
     result=0
     for i, e in enumerate(ls):
         if i == 0:
-        result=ls[i]
+            result=ls[i]
         else:
-        result*=ls[i]
+             result*=ls[i]
     return result
 
 def multiply_by_n_elements(n):
@@ -75,7 +75,7 @@ def multiply_2_el(*ls):
     result=0
     for i, e in enumerate(ls):
         if i == 0:
-        result=ls[i]
+            result=ls[i]
         else:
-        result*=ls[i]
+            result*=ls[i]
     return result
