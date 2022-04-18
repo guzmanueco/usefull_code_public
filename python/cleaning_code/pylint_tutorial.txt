@@ -1,0 +1,5 @@
+https://pylint.pycqa.org/en/latest/tutorial.html
+
+Install running pip install pylint
+
+In the terminal run pylint <filename> and see the unaccuracies in the code

@@ -1,0 +1,20 @@
+https://pylint.pycqa.org/en/latest/tutorial.html
+
+Install running pip install autopep8
+
+On the terminal run autopep8 <filename> and it will output the corrected code
+
+- autopep8 <filename>
+
+To save in a different file run
+
+-  autopep8 <filename> > <newfilename>
+
+Once corrected (you can run pylint on the new file to check for extra unaccuracies)
+you can put the code back in the original file running
+
+- mv tmp.py in.py
+
+This will require using a linux (bash) terminal
+
+See: https://codeyarns.com/tech/2020-09-23-autopep8-python-code-formatter.html
