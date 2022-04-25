@@ -1,0 +1,12 @@
+Run a Databricks Notebook from Azure Pipelines: https://menziess.github.io/howto/run/databricks-notebooks-from-devops/
+
+Unit Testing in Databricks: 
+- https://docs.microsoft.com/en-us/azure/databricks/dev-tools/ci-cd/ci-cd-azure-devops
+- https://databricks.com/blog/2021/09/20/part-1-implementing-ci-cd-on-databricks-using-databricks-notebooks-and-azure-devops.html
+- https://corgisandcode.com/2021/02/12/unit-testing-databricks-notebooks/
+- https://medium.com/octave-john-keells-group/how-to-run-unit-tests-on-azure-databricks-notebooks-using-azure-devops-cicd-pipelines-9cf3604e4bd9
+- https://levelup.gitconnected.com/databricks-ci-cd-using-azure-devops-part-i-ci-e9cacd89b6c2
+- https://www.padok.fr/en/blog/ci/cd-pipeline-databricks-azure-devops
+- https://github.com/alexott/databricks-nutter-repos-demo
+
+
