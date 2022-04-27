@@ -1,0 +1,14 @@
+name: eazybytes #allows string without quotes, single and double quotes
+language: "Java"
+area: 'Online'
+major-version: 2
+minor-version: 0.5
+hex: 0x12d6 # YAML interprets the hexadecimal value into integer
+goodDay: true
+badDay: false
+niceweekend: Yes # this is a boolean
+boringweekend: No # rhis is a boolean
+positive-infinite: .inf # positive infinite
+negative-infinite: -.inf # negative infinite
+null-value: null
+null-value1: ~

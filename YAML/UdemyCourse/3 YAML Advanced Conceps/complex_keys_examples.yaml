@@ -1,0 +1,9 @@
+? This is a key
+  that has multiple lines
+: and this is its value
+? - Development
+  - UAT
+  - PROD
+: - hhtp://dev.eazybank.com
+  - hhtp://uat.eazybank.com
+  - hhtp://prod.eazybank.com

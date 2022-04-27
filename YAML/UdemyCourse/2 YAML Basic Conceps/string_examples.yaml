@@ -1,0 +1,22 @@
+organizacion: eazybank
+about: | # this means you want YAML to parse the file acknoledging the linebreak
+  eazybank
+  is a
+  Bank based
+  application
+history: > # this means you want YAML to parse the full text as a one-line file
+  EazyBank
+  established
+  in 1989
+products: "[Accounts] & {Cards} - <loans>" # we use quotation for strings with special characters
+hasMobileApp: "Yes" # we use quotation for Yes, otherwise it would be interpreted as a Boolean value
+about2: |- # the minus sign erases a line break at the end of the string
+  eazybank
+  is a
+  Bank based
+  application
+about3: |+ # the plus sign adds a line break at the end of the string
+  eazybank
+  is a
+  Bank based
+  application

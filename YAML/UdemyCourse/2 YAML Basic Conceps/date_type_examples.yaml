@@ -1,0 +1,14 @@
+# If we don't explicitly type the variables as timestamp, they will be taken as strings
+# These are strings
+canonical: 2001-12-15T02:59:43.1Z
+iso8601: 2001-12-14t21:59:43.10 -5
+space separated: 2001-12-14 21:59:43.10 -5
+no time zone(Z): 2001-12-15 2:59:43.10
+date(00:00:00Z): 2002-12-14
+
+# These are timestamps
+canonical: !!timestamp 2001-12-15T02:59:43.1Z
+iso8601: !!timestamp 2001-12-14t21:59:43.10 -5
+space separated: !!timestamp 2001-12-14 21:59:43.10 -5
+no time zone(Z): !!timestamp 2001-12-15 2:59:43.10
+date(00:00:00Z): !!timestamp 2002-12-14
