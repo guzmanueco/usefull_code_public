@@ -1,0 +1,16 @@
+We need to have installed either in our system or our enviroment:
+
+- anaconda: a version of conda that matches the version of python installed in the databricks cluster
+            we want to connect our visual studio code to. Find a list of versions in 
+            https://repo.anaconda.com/miniconda/ 
+            
+            
+            
+
+- openjdk: https://www.openlogic.com/openjdk-downloads?field_java_parent_version_target_id=416&field_operating_system_target_id=436&field_architecture_target_id=All&field_java_package_target_id=All
+           download windows 64 version
+
+- databricks-connect: we need to install the same version of databricks as the one in the cluster we
+                      want to connect to. Command: pip install -U "databricks-connect==9.1"
+
+- winutils: we need to install it in order to have hadoop. github.com/cdarlint/winutils.git download file

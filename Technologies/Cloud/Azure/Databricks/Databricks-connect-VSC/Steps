@@ -1,0 +1,33 @@
+1- Download spark running on the terminal pip install pyspark
+
+2- Download java for windows x64 from: https://www.openlogic.com/openjdk-downloads?field_java_parent_version_target_id=416&field_operating_system_target_id=436&field_architecture_target_id=All&field_java_package_target_id=All
+   Make sure you add to the path and create a enviroment variable JAVA_HOME if
+   not automatically created. In case the installation does not succeed, save this folder in a directory
+   without spaces in its name
+
+3- Download hadoop: github.com/cdarlint/winutils.git and create enviroment variable HADOOP_HOME
+
+4- Download Anaconda for windows x64 making sure you download the python version that is installed in the databricks cluster
+   https://repo.anaconda.com/miniconda/
+
+5- Create enviroment for your databricks connection with the command conda create --name dbconnect python=3.8 using the python version installed in the cluster
+
+6- In visual studio code use as interpreter the anaconda distribution that has the python version installed in the databricks cluster
+
+7- Run conda activate dbconnect to change to the enviroment
+
+8- Run to install databricks-connect and the wanted version pip install -U "databricks-connect==9.1"
+
+9- Check if the connection was successfull with databricks-connect test
+
+10- If it fails due to a error "Exception: Java gateway process exited before sending the driver its port number"
+    make sure your java is not in a directory with spaces in its name, because it could be making the parsing fail and run again
+
+11- If you want to run a file, you need to input the following lines of code
+    
+    from pyspark.sql import SparkSession
+    spark = SparkSession.builder.getOrCreate()
+
+    Since the spark object and variable are automatically created in Databricks but not in local
+
+For troubles and steps refer to https://changhsinlee.com/install-pyspark-windows-jupyter/

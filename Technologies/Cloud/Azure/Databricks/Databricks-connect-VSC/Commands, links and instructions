@@ -1,0 +1,18 @@
+See list of available conda versions to download: https://repo.anaconda.com/miniconda/
+
+Download openjdk: https://www.openlogic.com/openjdk-downloads?field_java_parent_version_target_id=416&field_operating_system_target_id=436&field_architecture_target_id=All&field_java_package_target_id=All
+
+Install databricks-connect with version 9.1: pip install -U "databricks-connect==9.1"
+
+Configure databricks-connect: databricks-connect configure
+                              if the databricks compute section of the cluster link is 
+                              https://adb-5013067713624595.15.azuredatabricks.net/?o=5013067713624595#setting/clusters/0804-103606-poem361/configuration
+                              - Host : https://adb-5013067713624595.15.azuredatabricks.net/
+                              - Token: personal token created at https://adb-5013067713624595.15.azuredatabricks.net/?o=5013067713624595#setting/account
+                              - Cluster id: 0804-103606-poem361
+                              - Org ID: 5013067713624595
+                              - Port: any
+
+Create enviroment: conda create --name dbconnect python=3.8
+
+Activate dbconnect: conda activate dbconnect

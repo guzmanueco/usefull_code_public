@@ -1,3 +1,5 @@
+# Testing
+
 Automated testing uses software to execute your code and compare the actual results with the results you expect.
 
 With automated testing, there comes a tradeoff. Although automated testing enables testers to focus their time
@@ -13,7 +15,7 @@ Types of testing:
 
         - Code coverage testing: computes the percentage of your code that's covered by your unit tests.
 
-What makes a good test?
+# What makes a good test?
 
 - Don't test for the sake of testing
 - Keep your tests short
